@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Rs Dharmo</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light shadow fixed-top border-bottom border-3 border-dark"
+    >
+      <div class="container justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://static.wixstatic.com/media/b041f3_6419749ebf8e47febfa45638f6d4e5ce~mv2.png/v1/fill/w_227,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGOOO%20(1).png"
+            width="150"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3 fs-5 fw-bold text-dark">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Layanan Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#penawaran">Penawaran</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#jadwal-dokter">Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="adminlte-v4.0.0-beta2-with-dist/dist/pages/index.html"
+          class="btn btn-dark rounded-pill px-4 shadow d-none d-lg-block " style="margin-left: 100px ;"
+          >Dashboard</a
+        >
+      </div>
+    </nav>
+    <!-- NAvbar End -->
+
+    <!-- Hero Start -->
+    <section id="hero-section">
+      <div class="container">
+        <div class="row">
+          <h1 class="display-5 text-dark">Madicine Made With Care</h1>
+          <p class="text-dark opacity-75">
+            Menghadirkan Layanan Kesehatan Berkualitas,
+            <br class="d-none d-md-block" />
+            Ramah, Bertanggung Jawab dan Ikhlas.
+          </p>
+          <div class="d-flex gap-3 mt-2 mt-lg-4">
+            <a href="#about" class="btn bg-dark text-white rounded-pill px-4 shadow"
+              >Selengkapnya</a
+            >
+            <a href="login.html" class="btn bg-dark text-white rounded-pill px-4 shadow"
+              >Join Member</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- About start -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-4 mt-5">
+          <div class="col">
+            <h2 class="fw-bold text-dark fs-1 mb-4">Tentang Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                  <img src="img/1.webp" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/2.webp" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/3.webp" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h1 class="display-5 text-dark">Rumah Sakit Darmo</h1>
+            <p>
+              RS Darmo menghadirkan layanan kesehatan berkualitas yang didukung
+              dengan teknologi medis modern, lingkungan asri di setiap sudut
+              rumah sakit, serta dokter spesialis berpengalaman dan staf-staf
+              yang profesional siap melayani Anda dengan sepenuh hati.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#adcdee"
+        fill-opacity="1"
+        d="M0,224L48,202.7C96,181,192,139,288,149.3C384,160,480,224,576,250.7C672,277,768,267,864,250.7C960,235,1056,213,1152,176C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- About end -->
+
+    <!-- Layanan penunjang start -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Layanan Penunjang</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1513315849661-23219170a967?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Intensif Care Unit</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1601055283742-8b27e81b5553?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Laboratorium</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1601841197690-6f0838bdb005?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3BpdGFsJTIwaGVtfGVufDB8fDB8fHww" >
+              <div class="card-body">
+                <h4 class="card-title text-center">Hemodialisis</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsJTIwaGVtfGVufDB8fDB8fHww"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Rehabilitasi Medis</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1550792436-181701c71f63?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGhvc3BpdGFsJTIwaGVtfGVufDB8fDB8fHww"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Radiologi</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1690306816872-91063f6de36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyZGlvbG9neXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center ">Cardiology</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- layanan penunjang end -->
+    <section id="unggulan">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Layanan Unggulan</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWx8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Endoscopy Center</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+              src="https://images.unsplash.com/photo-1577896851905-dc99e1f8b4b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvc3BpdGFsfGVufDB8fDB8fHww"
+              class="card-img-top"
+            />
+              <div class="card-body">
+                <h4 class="card-title text-center">Digestive surgery</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvc3BpdGFsfGVufDB8fDB8fHww" >
+              <div class="card-body">
+                <h4 class="card-title text-center">Urology Center</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Layanan unggulan start -->
+
+    <!-- Layanan unggulan end -->
+
+    <!-- Penawaran start -->
+    <section id="penawaran">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Penawaran Khusus</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center mb-5">
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/b041f3_1b63ea67f4f540b6bcee24a107d6fc58~mv2.jpg/v1/fill/w_306,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b041f3_1b63ea67f4f540b6bcee24a107d6fc58~mv2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/b041f3_2b724e1134f947b5ab7a54a9d5f7edd1~mv2.png/v1/fill/w_306,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b041f3_2b724e1134f947b5ab7a54a9d5f7edd1~mv2.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/b041f3_48ad5be97484496aa716fba60bc7b4ab~mv2.png/v1/fill/w_306,h_431,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b041f3_48ad5be97484496aa716fba60bc7b4ab~mv2.png"
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/f9c2d5_d1ae46430421480fbefe3455d0fb1035~mv2.jpeg/v1/fill/w_306,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f9c2d5_d1ae46430421480fbefe3455d0fb1035~mv2.jpeg"
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/b041f3_2550b1485efa420da582cc3e29a25d34~mv2.jpg/v1/fill/w_306,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b041f3_2550b1485efa420da582cc3e29a25d34~mv2.jpg"
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="https://static.wixstatic.com/media/b041f3_90d942e8f7b94b34bc9151503681c290~mv2.jpg/v1/fill/w_306,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b041f3_90d942e8f7b94b34bc9151503681c290~mv2.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,224L48,202.7C96,181,192,139,288,149.3C384,160,480,224,576,250.7C672,277,768,267,864,250.7C960,235,1056,213,1152,176C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Penawaran end -->
+
+    <!-- Rawat Inap start -->
+    <section id="rawat-inap">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Rawat Inap</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1519494080410-f9aa76cb4283?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9zcGl0YWwlMjBiZWR8ZW58MHx8MHx8fDA%3D"
+                class="card-img-top"
+                alt="project1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rawat Inap Dewasa</h5>
+                <p class="card-text">
+                  Layanan Rawat Inap yang diperuntukan untuk pasien yang berumur
+                  18 tahun keatas.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1606166187734-a4cb74079037?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG9zcGl0YWwlMjBiZWR8ZW58MHx8MHx8fDA%3D"
+                class="card-img-top"
+                alt="project2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rawat inap Anak</h5>
+                <p class="card-text">
+                  Layanan Rawat Inap yang diperuntukan untuk pasien yang berumur
+                  0-17 tahun.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1633219664572-473fd988a44f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsJTIwbW9tbXl8ZW58MHx8MHx8fDA%3D"
+                class="card2-img-top"
+                alt="project3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rawat Inap Bersalin</h5>
+                <p class="card-text">
+                  Layanan Rawat Inap yang diperuntukan khusus untuk persalinan
+                  ibu hamil.
+                </p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rawat Inap end   -->
+
+    <!-- Rawat Jalan start -->
+    <section id="rawat-jalan">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>Rawat Jalan</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://images.unsplash.com/photo-1576766125535-b04e15fd0273?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9zcGl0YWwlMjBjaGlsZHxlbnwwfHwwfHx8MA%3D%3D"
+                  class="card-img-top mb-3 border-3 border-dark rounded-circle"
+                />
+                <h5 class="card-title mb-3 text-center">
+                  Darmo Children Center
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://images.unsplash.com/photo-1517120026326-d87759a7b63b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsJTIwcGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D"
+                  class="card-img-top mb-3 border-3 border-dark rounded-circle"
+                  alt=""
+                />
+                <h5 class="card-title mb-3 text-center">
+                  Darmo Madical Center
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rawat Jalan end -->
+
+    <!-- Jadwal Dokter start -->
+    <section id="jadwal-dokter">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Jadwal Dokter</h2>
+          </div>
+        </div>
+        <table class="table table-bordered border-primary text-center mb-5">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">KLINIK</th>
+              <th scope="col">DOKTER</th>
+              <th scope="col">JADWAL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>SARAF</td>
+              <td>dr.Ichwan Noerfitrah Sp.Kj.Mkes</td>
+              <td>Senin - Jumat</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>PARU</td>
+              <td>dr. Raihan prayata, Sp.Pd</td>
+              <td>Senin - Kamis</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>GIGI</td>
+              <td>dr.Faiz Rhamdan Sp.OG</td>
+              <td>Rabu - Jumat</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>BEDAH</td>
+              <td>dr.Reza, Sp.THT</td>
+              <td>Selasa - Jumat</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <!-- Jadwal Dokter end -->
+
+    <!-- Contact start -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Hubungi Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,160L80,186.7C160,213,320,267,480,282.7C640,299,800,277,960,256C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="bg-dark text-white text-center p-5">
+      <p>Copyright &copy; 2024 RS Darmo, All Rights Reserved.</p>
+    </footer>
+    <!-- Footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+        
+             
+             
+          
+          
+             
+
